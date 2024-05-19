@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+*::selection {
+  background-color: #fff879;
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/30/13/29/space-4984262_960_720.jpg");
+  font-family: "Poetsen One", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 100px auto;
+  height: 500px;
+  background: url("https://cdn.pixabay.com/photo/2024/03/06/11/09/plane-8616271_1280.jpg");
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+  padding: 40px 0;
+}
+.create {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 100px auto;
+  height: 500px;
+  color: white;
+}
+
+label {
+  font-size: 24px;
+}
+
+input[type="text"] {
+  font-size: 22px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  color: red;
+  text-align: center;
+}
+
+button {
+  background-color: #ff7e7e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  margin: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px black;
+}
+
+button:hover {
+  background-color: #a63535;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 84%;
+  }
+}

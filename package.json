@@ -1,0 +1,18 @@
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "Never Give Up",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Habib",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.22",
+    "qr-image": "^3.2.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
